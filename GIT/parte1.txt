@@ -1,0 +1,42 @@
+remoto->local
+git clone url
+
+para mudar de nome;
+git clone url	repo-clonado
+****
+local->remoto
+>mkdir repo-local
+>cd repo-local/
+>git init
+
+
+CONECTAR O REPOSITÓRIO LOCAL AO REMOTO
+git remote add origin URL
+--------------------------------
+Quando o repositório tem várias branches e queremos escolher som uma
+
+git clone URL --branch feature-1 --single-branch
+
+* se não passar uma branch específica ele usa a principal
+--------------------------------
+.git
+responsável por gerenciar os arquivos responsáveis pelo controle de versão
+9mostrar
+config: responsável pelas configurações do repositório
+
+cat config
+
+
+remote origin:nome padrão que o git dá ao repositorio que foi clonado
+branch main: está referenciando o repositório remoto
+
+git remote -v 
+- mostra os repositórios remotos que estão vinculados
+
+
+.gitignore
+- definir arquivos que não se deseja que sejam enviados para o repositório remoto
+
+choose licence
+- adcionar um licença com relação ao uso, alteração e distribuição do código
+
