@@ -24,7 +24,7 @@ public class GrandeDeposito {
              //TODO: Imprimir a mensagem de encerrar o programa.
              System.out.print("Valor invalido! Digite um valor maior que zero.");
         }
-        scanner.close();
+        scanner.close();cd Desafios
 	}
 
 }
